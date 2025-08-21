@@ -9,4 +9,5 @@ async def read_root():
 
 @app.get("/world")
 async def hello():
+    """PPLSPCLAS"""
     return {"message": "Hello"}
